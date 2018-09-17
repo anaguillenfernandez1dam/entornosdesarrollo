@@ -1,0 +1,12 @@
+20180917
+
+ VirtualBox (pendiente de anotar
+
+ git:
+ crear usuario y repositorio en github (pendiente de anotar)
+
+ git clone https://github.com/anaguillenfernandez1dam/entornosdesarrollo.git
+ git config --global user.name anaguillenfernandez1dam
+ git config --global user.email 1dam.aguillen@institutoserpis.org
+ git config --global push.default simple
+
