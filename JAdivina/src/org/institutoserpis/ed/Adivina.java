@@ -11,18 +11,26 @@ public class Adivina {
 		Random random = new Random();
 		int contadorIntentos =1, numeroAleatorio = random.nextInt(1000)+1;
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Dime un número");
+		int numMinimo = 1;
+		int numMaximo = 1000;
+		
+		System.out.printf("Adivina un número entre %s y %s", numMinimo, numMaximo);
+		System.out.println();
 		int numeroIntroducido = Integer.parseInt(scanner.nextLine());
 		
 		
 		while(numeroIntroducido != numeroAleatorio){
-		if (numeroIntroducido < numeroAleatorio)
-			System.out.println("Mi número es mayor. Dime otro");
-		else 
-			System.out.println("Mi número es menor. Dime otro");
+			if (numeroIntroducido < numeroAleatorio) {
+				numMinimo = numeroIntroducido+1;
+				System.out.printf("Mi número es mayor. Dime otro entre %s y %s. [Intento %s]",numMinimo, numMaximo, contadorIntentos);
+			}else {
+				numMaximo = numeroIntroducido-1;
+				System.out.printf("Mi número es menor. Dime otro entre %s y %s. [Intento %s]",numMinimo,numMaximo, contadorIntentos);
+			}
 			
-		numeroIntroducido = Integer.parseInt(scanner.nextLine());
-		contadorIntentos++;
+			System.out.println();
+			numeroIntroducido = Integer.parseInt(scanner.nextLine());
+			contadorIntentos++;
 		}
 		
 		System.out.println("¡Felicidades, has ganado!");
