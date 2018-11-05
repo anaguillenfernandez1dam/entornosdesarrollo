@@ -50,8 +50,34 @@ class VectorTest {
 	
 	@Test 
 	void sort() {
-		//int[] v = new int[] {15, 12};
-		//sort(v);
+		int[] v = new int[] {15, 12, 11};
+//		Vector.sort(v);
+//		assertArrayEquals(new int[] {11, 12, 15}, v);
+//		assertEquals(11, v[0]);
+//		assertEquals(12, v[1]);
+//		assertEquals(15, v[2]);
+//		
+//		v = new int[] {15, 12, 11, 18};
+//		Vector.sort(v);
+//		assertArrayEquals(new int[] {11, 12, 15, 18}, v);
+//		
+//		v = new int[] {11, 12, 13, 14};
+//		Vector.sort(v);
+//		//assertArrayEquals(new int[] {11, 12, 14, 13}, v);
+//		assertArrayEquals(new int[] {11, 12, 13, 14}, v);
+//		
+//		v = new int[] {11, 12, 13, 14};
+//		Vector.sort(v);
+//		//assertArrayEquals(new int[] {11, 12, 14, 13}, v);
+//		assertArrayEquals(new int[] {11, 12, 13, 14}, v);
+//		
+		v = new int[] {11, 14, 13, 19, 12};
+		Vector.sort(v);
+	
+		assertArrayEquals(new int[] {11, 12, 13, 14, 19}, v);
+//		assertEquals(11, v[0]);
+//		assertEquals(12, v[1]);
+		
 	}
 
 }

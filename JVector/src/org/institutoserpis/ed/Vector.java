@@ -56,25 +56,40 @@ public class Vector {
 	}
 	
 	public static void sort(int[] v) {
-		for (int index = 0; index < v.length; index++) {
-			if (v[index] >= v[0]) {
-				if (v[index] >= v[1]) {
-					if (v[index] >= v[2]) {
-						if (v[index] >= v[3]) {
-							v[4] = v[index];
-						}else {
-							v[3] = v[index];
-						}
-					}else {
-						v[3] = v[index];
-					}
-				}else {
-					v[1] = v[index];
-				}
-			}else {
-				v[0] = v[index];
-			}
+//		for (int index = 1; index < v.length+1; index++) {
+//			if (v[index] >= v[0]) {
+//				if (v[index] >= v[1]) {
+//					if (v[index] >= v[2]) {
+//						if (v[index] >= v[3]) {
+//							v[4] = v[index];
+//						}else {
+//							v[3] = v[index];
+//						}
+//					}else {
+//						v[3] = v[index];
+//					}
+//				}else {
+//					v[1] = v[index];
+//				}
+//			}else {
+//				v[0] = v[index];
+//			}
+//		}
+		int indexOfMin = 0;
+		int indexOf = 0;
+		
+		for (int i = 1; i<v.length; i++) {
+		
+			for (int index=1; index < v.length; index++)
+				if(v[index] < v[indexOfMin])
+					indexOfMin = index;
+		
+			int aux = v[indexOf];
+			v[indexOf] = v[indexOfMin];
+			v[indexOfMin] = aux;
+		    indexOf ++;
 		}
+		
 		
 	}
 }
