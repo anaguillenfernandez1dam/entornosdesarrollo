@@ -1,0 +1,6 @@
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/HolaMundo/HolaMundo/bin/Debug/HolaMundo.exe
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/HolaMundo/HolaMundo/bin/Debug/HolaMundo.pdb
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/HolaMundo/HolaMundo/obj/x86/Debug/HolaMundo.csprojAssemblyReference.cache
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/HolaMundo/HolaMundo/obj/x86/Debug/HolaMundo.csproj.CoreCompileInputs.cache
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/HolaMundo/HolaMundo/obj/x86/Debug/HolaMundo.exe
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/HolaMundo/HolaMundo/obj/x86/Debug/HolaMundo.pdb
