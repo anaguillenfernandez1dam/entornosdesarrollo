@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{5CD58124-BF40-4D08-BEEA-DAFD515E5E22}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CVector/NUnitTestClass.cs">
+    <Files>
+      <File FileName="CVector/Program.cs" Line="10" Column="10" />
+      <File FileName="CVector/NUnitTestClass.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CVector PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>

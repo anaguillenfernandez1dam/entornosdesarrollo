@@ -1,4 +1,4 @@
-20180917
+2018 09 17
 
  VirtualBox (pendiente de anotar
 
@@ -10,7 +10,7 @@
  git config --global user.email 1dam.aguillen@institutoserpis.org
  git config --global push.default simple
 
-20180924
+2018 09 24
 
  En máquina virtual con ubuntu 16.04 instalamos el jdk de java:
 
@@ -20,7 +20,7 @@
 
  Creamos HolaMundo.java, compilamos y ejecutamos 
 
-20181115
+2018 11 15
 
   Instalado monodevelop en máquina virtual Ubuntu 16.04
 
@@ -35,3 +35,7 @@
 	apt install -y monodevelop 2>> $logfile
 
 	echo "Instalado monodevelop." >> $logfile
+
+2018 11 26
+
+  Creado CVector con método BinarySearch

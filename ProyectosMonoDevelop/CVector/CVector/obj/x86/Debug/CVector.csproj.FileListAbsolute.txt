@@ -1,0 +1,6 @@
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CVector/CVector/bin/Debug/CVector.exe
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CVector/CVector/bin/Debug/CVector.pdb
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CVector/CVector/obj/x86/Debug/CVector.csprojAssemblyReference.cache
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CVector/CVector/obj/x86/Debug/CVector.csproj.CoreCompileInputs.cache
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CVector/CVector/obj/x86/Debug/CVector.exe
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CVector/CVector/obj/x86/Debug/CVector.pdb
