@@ -40,12 +40,21 @@ namespace CVector
             int right = count - 1;
             int middle = (left + right) / 2;
             while(left < right && v[middle] != x){
-                if (x > v[middle])
+                if (...)
                     left = middle + 1;
                 else
                     right = middle - 1;
                 middle = (left + right) / 2;
             }
+
+            if (left > right)
+                return -1;
+
+            if (v[middle] == x)
+                return middle;
+            
+           
+            return -2;
         }
     }
 }
