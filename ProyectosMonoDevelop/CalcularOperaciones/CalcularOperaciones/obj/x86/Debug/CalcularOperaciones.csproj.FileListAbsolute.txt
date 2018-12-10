@@ -1,0 +1,6 @@
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CalcularOperaciones/CalcularOperaciones/bin/Debug/CalcularOperaciones.exe
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CalcularOperaciones/CalcularOperaciones/bin/Debug/CalcularOperaciones.pdb
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CalcularOperaciones/CalcularOperaciones/obj/x86/Debug/CalcularOperaciones.csprojAssemblyReference.cache
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CalcularOperaciones/CalcularOperaciones/obj/x86/Debug/CalcularOperaciones.csproj.CoreCompileInputs.cache
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CalcularOperaciones/CalcularOperaciones/obj/x86/Debug/CalcularOperaciones.exe
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CalcularOperaciones/CalcularOperaciones/obj/x86/Debug/CalcularOperaciones.pdb
