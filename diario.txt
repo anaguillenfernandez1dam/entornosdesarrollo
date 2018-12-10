@@ -43,3 +43,7 @@
 2018 12 03
   
   Creado proyecto GTK con MainWindow
+
+2018 12 10
+
+  Creado proyecto CGtk para practicar con GTK

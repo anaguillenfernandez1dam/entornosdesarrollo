@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{76AE9961-FDBD-481A-B3C9-DDD04E0DA245}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="CGtk/MainWindow.cs">
     <Files>
-      <File FileName="CGtk/MainWindow.cs" Line="9" Column="9" />
+      <File FileName="CGtk/MainWindow.cs" Line="4" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

@@ -1,0 +1,6 @@
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CGtk/CGtk/bin/Debug/CGtk.exe
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CGtk/CGtk/bin/Debug/CGtk.pdb
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CGtk/CGtk/obj/x86/Debug/CGtk.csprojAssemblyReference.cache
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CGtk/CGtk/obj/x86/Debug/CGtk.csproj.CoreCompileInputs.cache
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CGtk/CGtk/obj/x86/Debug/CGtk.exe
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CGtk/CGtk/obj/x86/Debug/CGtk.pdb
