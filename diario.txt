@@ -46,4 +46,4 @@
 
 2018 12 10
 
-  Creado proyecto CGtk para practicar con GTK
+  Creado proyecto CGtk para practicar con GTK y añadido CSuma
