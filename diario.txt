@@ -47,3 +47,7 @@
 2018 12 10
 
   Creado proyecto CGtk para practicar con GTK y añadido CSuma
+
+2018 12 13
+
+  Creado proyecto CTresEnRaya para practicar con tablas

@@ -1,0 +1,6 @@
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CTresEnRaya/CTresEnRaya/bin/Debug/CTresEnRaya.exe
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CTresEnRaya/CTresEnRaya/bin/Debug/CTresEnRaya.pdb
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CTresEnRaya/CTresEnRaya/obj/x86/Debug/CTresEnRaya.csprojAssemblyReference.cache
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CTresEnRaya/CTresEnRaya/obj/x86/Debug/CTresEnRaya.csproj.CoreCompileInputs.cache
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CTresEnRaya/CTresEnRaya/obj/x86/Debug/CTresEnRaya.exe
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CTresEnRaya/CTresEnRaya/obj/x86/Debug/CTresEnRaya.pdb
