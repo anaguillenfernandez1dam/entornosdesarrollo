@@ -15,6 +15,8 @@ public partial class MainWindow : Gtk.Window
                 Button button = new Button();
                 table.Attach(button, (uint)column, (uint)column + 1, (uint)row, (uint)row + 1);
                 button.Clicked += delegate {
+                    if (button.Label != null)
+                        return;
                     if (turno2 == false)
                         button.Label = "X";
                     else

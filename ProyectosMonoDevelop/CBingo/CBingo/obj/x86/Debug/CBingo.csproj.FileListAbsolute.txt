@@ -1,0 +1,6 @@
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CBingo/CBingo/bin/Debug/CBingo.exe
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CBingo/CBingo/bin/Debug/CBingo.pdb
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CBingo/CBingo/obj/x86/Debug/CBingo.csprojAssemblyReference.cache
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CBingo/CBingo/obj/x86/Debug/CBingo.csproj.CoreCompileInputs.cache
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CBingo/CBingo/obj/x86/Debug/CBingo.exe
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CBingo/CBingo/obj/x86/Debug/CBingo.pdb

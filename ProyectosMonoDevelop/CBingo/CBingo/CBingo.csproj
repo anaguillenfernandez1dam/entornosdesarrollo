@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{C609DD63-4DAE-45D0-B596-F021BA2FF269}</ProjectGuid>
+    <ProjectGuid>{FA3C1A8F-BB0A-4B40-9442-478A2267B2C8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CTresEnRaya</RootNamespace>
-    <AssemblyName>CTresEnRaya</AssemblyName>
+    <RootNamespace>CBingo</RootNamespace>
+    <AssemblyName>CBingo</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -60,10 +60,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="gtk-gui\generated.cs" />
+    <Compile Include="MainWindow.cs" />
     <Compile Include="gtk-gui\MainWindow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="MainWindow.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
