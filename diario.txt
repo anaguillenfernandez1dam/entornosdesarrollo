@@ -51,3 +51,7 @@
 2018 12 13
 
   Creado proyecto CTresEnRaya para practicar con tablas
+
+2019 10 01
+
+  Añadidas clases Panel y Bombo, reorganización del proyecto
