@@ -1,0 +1,6 @@
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CWindow/CWindow/bin/Debug/CWindow.exe
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CWindow/CWindow/bin/Debug/CWindow.pdb
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CWindow/CWindow/obj/x86/Debug/CWindow.csprojAssemblyReference.cache
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CWindow/CWindow/obj/x86/Debug/CWindow.csproj.CoreCompileInputs.cache
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CWindow/CWindow/obj/x86/Debug/CWindow.exe
+/home/anafer/entornosdesarrollo/ProyectosMonoDevelop/CWindow/CWindow/obj/x86/Debug/CWindow.pdb
