@@ -12,14 +12,19 @@ public partial class MainWindow : Gtk.Window
     {
         Build();
 
-        Panel panel = new Panel(vbox);
+        Panel panel = new Panel(caja);
         Bombo bombo = new Bombo();
 
         buttonSiguiente.Clicked += delegate
         {
-            panel.Marcar(32);
             int numero = bombo.sacarBola();
+            panel.Marcar(numero);
+            buttonSiguiente.Sensitive = bombo.quedanBolas();
+            //if (!bombo.quedanBolas())
+                //buttonSiguiente.Sensitive = false;
         };
+
+
         ////Button[] buttons = new Button[90]
         //Random random = new Random();
         //List<int> numeros = new List<int>();

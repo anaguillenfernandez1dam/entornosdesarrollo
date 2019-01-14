@@ -3,15 +3,13 @@
 
 public partial class MainWindow
 {
-	private global::Gtk.VBox vbox1;
+	private global::Gtk.VBox caja;
 
 	private global::Gtk.HBox hbox1;
 
 	private global::Gtk.Label labelNumero;
 
 	private global::Gtk.Button buttonSiguiente;
-
-	private global::Gtk.Table table;
 
 	protected virtual void Build()
 	{
@@ -21,10 +19,10 @@ public partial class MainWindow
 		this.Title = global::Mono.Unix.Catalog.GetString("MainWindow");
 		this.WindowPosition = ((global::Gtk.WindowPosition)(4));
 		// Container child MainWindow.Gtk.Container+ContainerChild
-		this.vbox1 = new global::Gtk.VBox();
-		this.vbox1.Name = "vbox1";
-		this.vbox1.Spacing = 6;
-		// Container child vbox1.Gtk.Box+BoxChild
+		this.caja = new global::Gtk.VBox();
+		this.caja.Name = "caja";
+		this.caja.Spacing = 6;
+		// Container child caja.Gtk.Box+BoxChild
 		this.hbox1 = new global::Gtk.HBox();
 		this.hbox1.Name = "hbox1";
 		this.hbox1.Spacing = 6;
@@ -48,20 +46,12 @@ public partial class MainWindow
 		w2.Position = 1;
 		w2.Expand = false;
 		w2.Fill = false;
-		this.vbox1.Add(this.hbox1);
-		global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.hbox1]));
+		this.caja.Add(this.hbox1);
+		global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.caja[this.hbox1]));
 		w3.Position = 0;
 		w3.Expand = false;
 		w3.Fill = false;
-		// Container child vbox1.Gtk.Box+BoxChild
-		this.table = new global::Gtk.Table(((uint)(5)), ((uint)(7)), true);
-		this.table.Name = "table";
-		this.table.RowSpacing = ((uint)(6));
-		this.table.ColumnSpacing = ((uint)(6));
-		this.vbox1.Add(this.table);
-		global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.table]));
-		w4.Position = 1;
-		this.Add(this.vbox1);
+		this.Add(this.caja);
 		if ((this.Child != null))
 		{
 			this.Child.ShowAll();

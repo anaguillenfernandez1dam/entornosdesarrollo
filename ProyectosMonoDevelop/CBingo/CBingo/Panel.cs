@@ -20,9 +20,10 @@ namespace CBingo
                     index++;
                     Button button = new Button();
                     button.Label = index.ToString();
+                    buttons.Add(button);
                     table.Attach(button, column, column + 1, row, row + 1);
                 }
-
+            vBox.Add(table);
             table.ShowAll();
         }
 

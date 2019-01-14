@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{FA3C1A8F-BB0A-4B40-9442-478A2267B2C8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CBingo/Bombo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CBingo/MainWindow.cs">
     <Files>
       <File FileName="CBingo/Program.cs" Line="11" Column="1" />
-      <File FileName="CBingo/MainWindow.cs" Line="15" Column="28" />
-      <File FileName="CBingo/Panel.cs" Line="10" Column="35" />
-      <File FileName="CBingo/Bombo.cs" Line="1" Column="1" />
+      <File FileName="CBingo/Panel.cs" Line="33" Column="6" />
+      <File FileName="CBingo/Bombo.cs" Line="21" Column="6" />
+      <File FileName="CBingo/MainWindow.cs" Line="15" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
