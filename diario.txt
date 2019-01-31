@@ -55,3 +55,7 @@
 2019 10 01
 
   Añadidas clases Panel y Bombo, reorganización del proyecto
+
+2019 21 01
+
+  Añadido proyecto de Android Studio MyFirstApp

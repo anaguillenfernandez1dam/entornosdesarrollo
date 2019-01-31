@@ -5,7 +5,7 @@
       <File FileName="CWindow/MainWindow.cs" Line="16" Column="28" />
       <File FileName="CWindow/WindowHelper.cs" Line="13" Column="33" />
       <File FileName="CWindow/MyWindow.cs" Line="5" Column="47" />
-      <File FileName="CWindow/MyDialog.cs" Line="8" Column="26" />
+      <File FileName="CWindow/MyDialog.cs" Line="6" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
