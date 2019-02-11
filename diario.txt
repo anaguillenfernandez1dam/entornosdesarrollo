@@ -63,3 +63,6 @@
 2019 04 02
 
   Añadido proyecto de Android Studio ASuma
+
+2019 11 02
+  Añadido método de resta y corregido
