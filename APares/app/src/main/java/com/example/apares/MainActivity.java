@@ -1,5 +1,6 @@
 package com.example.apares;
 
+import android.os.Handler;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -26,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
     List<Button> buttons;
     private int aciertos;
 
+    private Handler handler = new Handler();
+
 
     private void initPalabras(){
         palabras.addAll(Arrays.asList(frase.split(" ")));
@@ -40,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             buttons.get(i).setText(palabras.get(i));
         }
 
-        layout2.postDelayed( new Runnable(){
+        handler.postDelayed( new Runnable(){
             @Override
             public void run(){
                 for (int i = 0; i < buttons.size(); i++){
@@ -88,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                     boton1.setTag("");
                     boton2.setTag("");
                 }else{
-                    boton1.postDelayed(new Runnable(){
+                    handler.postDelayed(new Runnable(){
                         @Override
                         public void run(){
                             boton1.setText("");
