@@ -1,0 +1,6 @@
+/home/anafer/entornosdesarrollo/Pcsharp/Pcsharp/Pcsharp/bin/Debug/Pcsharp.exe
+/home/anafer/entornosdesarrollo/Pcsharp/Pcsharp/Pcsharp/bin/Debug/Pcsharp.pdb
+/home/anafer/entornosdesarrollo/Pcsharp/Pcsharp/Pcsharp/obj/x86/Debug/Pcsharp.csprojAssemblyReference.cache
+/home/anafer/entornosdesarrollo/Pcsharp/Pcsharp/Pcsharp/obj/x86/Debug/Pcsharp.csproj.CoreCompileInputs.cache
+/home/anafer/entornosdesarrollo/Pcsharp/Pcsharp/Pcsharp/obj/x86/Debug/Pcsharp.exe
+/home/anafer/entornosdesarrollo/Pcsharp/Pcsharp/Pcsharp/obj/x86/Debug/Pcsharp.pdb
