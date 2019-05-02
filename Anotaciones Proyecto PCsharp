@@ -1,0 +1,12 @@
+Anotaciones del proyecto pcsharp
+
+Proyecto: Agenda 
+
+Campos: nombre y teléfono
+
+- Mostrar agenda en una lista
+- Que se pueda añadir nuevas entradas
+- Modificar entradas
+- Eliminar
+- Persistencia (json o xml)
+
