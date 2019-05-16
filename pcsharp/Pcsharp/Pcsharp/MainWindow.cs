@@ -22,6 +22,21 @@ public partial class MainWindow : Gtk.Window
             treeView.Sensitive = false;
         };
 
+        editAction.Activated += (sender, e) =>
+        {
+            hbox1.Visible = true;
+            treeView.Sensitive = false;
+            treeView.Selection.GetSelected(out TreeIter treeIter);
+            string nombre = (string)treeView.Model.GetValue(treeIter, 0);
+            string telefono = (string)treeView.Model.GetValue(treeIter, 1);
+            entry1.Text = nombre;
+            entry2.Text = telefono;
+            Console.WriteLine("Nombre={0} Teléfono={1}", nombre, telefono);
+        };
+
+        treeView.Selection.Changed += (sender, e) => 
+            editAction.Sensitive = treeView.Selection.CountSelectedRows() > 0; 
+
 
     }
 

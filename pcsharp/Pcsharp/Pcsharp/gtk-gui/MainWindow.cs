@@ -31,9 +31,9 @@ public partial class MainWindow
 
 	private global::Gtk.HBox hbox1;
 
-	private global::Gtk.Button button1;
+	private global::Gtk.Button buttonCancelar;
 
-	private global::Gtk.Button button2;
+	private global::Gtk.Button buttonAceptar;
 
 	protected virtual void Build()
 	{
@@ -143,24 +143,24 @@ public partial class MainWindow
 		this.hbox1.Name = "hbox1";
 		this.hbox1.Spacing = 6;
 		// Container child hbox1.Gtk.Box+BoxChild
-		this.button1 = new global::Gtk.Button();
-		this.button1.CanFocus = true;
-		this.button1.Name = "button1";
-		this.button1.UseUnderline = true;
-		this.button1.Label = global::Mono.Unix.Catalog.GetString("GtkButton");
-		this.hbox1.Add(this.button1);
-		global::Gtk.Box.BoxChild w11 = ((global::Gtk.Box.BoxChild)(this.hbox1[this.button1]));
+		this.buttonCancelar = new global::Gtk.Button();
+		this.buttonCancelar.CanFocus = true;
+		this.buttonCancelar.Name = "buttonCancelar";
+		this.buttonCancelar.UseUnderline = true;
+		this.buttonCancelar.Label = global::Mono.Unix.Catalog.GetString("Cancelar");
+		this.hbox1.Add(this.buttonCancelar);
+		global::Gtk.Box.BoxChild w11 = ((global::Gtk.Box.BoxChild)(this.hbox1[this.buttonCancelar]));
 		w11.Position = 0;
 		w11.Expand = false;
 		w11.Fill = false;
 		// Container child hbox1.Gtk.Box+BoxChild
-		this.button2 = new global::Gtk.Button();
-		this.button2.CanFocus = true;
-		this.button2.Name = "button2";
-		this.button2.UseUnderline = true;
-		this.button2.Label = global::Mono.Unix.Catalog.GetString("GtkButton");
-		this.hbox1.Add(this.button2);
-		global::Gtk.Box.BoxChild w12 = ((global::Gtk.Box.BoxChild)(this.hbox1[this.button2]));
+		this.buttonAceptar = new global::Gtk.Button();
+		this.buttonAceptar.CanFocus = true;
+		this.buttonAceptar.Name = "buttonAceptar";
+		this.buttonAceptar.UseUnderline = true;
+		this.buttonAceptar.Label = global::Mono.Unix.Catalog.GetString("Aceptar");
+		this.hbox1.Add(this.buttonAceptar);
+		global::Gtk.Box.BoxChild w12 = ((global::Gtk.Box.BoxChild)(this.hbox1[this.buttonAceptar]));
 		w12.Position = 1;
 		w12.Expand = false;
 		w12.Fill = false;
@@ -168,13 +168,12 @@ public partial class MainWindow
 		global::Gtk.Box.BoxChild w13 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.hbox1]));
 		w13.Position = 4;
 		w13.Expand = false;
-		w13.Fill = false;
 		this.Add(this.vbox1);
 		if ((this.Child != null))
 		{
 			this.Child.ShowAll();
 		}
-		this.DefaultWidth = 430;
+		this.DefaultWidth = 369;
 		this.DefaultHeight = 443;
 		this.hbox1.Hide();
 		this.Show();
