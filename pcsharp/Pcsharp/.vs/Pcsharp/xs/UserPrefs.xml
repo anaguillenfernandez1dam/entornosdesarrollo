@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{280371E1-0625-4D21-88AB-1D7C1AE2E9B0}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Pcsharp/MainWindow.cs">
     <Files>
-      <File FileName="Pcsharp/MainWindow.cs" Line="3" Column="1" />
+      <File FileName="Pcsharp/MainWindow.cs" Line="25" Column="21" />
+      <File FileName="Pcsharp/WindowHelper.cs" Line="15" Column="60" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

@@ -9,6 +9,8 @@ public partial class MainWindow
 
 	private global::Gtk.Action editAction;
 
+	private global::Gtk.Action removeAction;
+
 	private global::Gtk.VBox vbox1;
 
 	private global::Gtk.Toolbar toolbar1;
@@ -16,6 +18,8 @@ public partial class MainWindow
 	private global::Gtk.ScrolledWindow GtkScrolledWindow;
 
 	private global::Gtk.TreeView treeView;
+
+	private global::Gtk.VBox vbox3;
 
 	private global::Gtk.Label labelContacto;
 
@@ -45,6 +49,8 @@ public partial class MainWindow
 		w1.Add(this.newAction, null);
 		this.editAction = new global::Gtk.Action("editAction", null, null, "gtk-edit");
 		w1.Add(this.editAction, null);
+		this.removeAction = new global::Gtk.Action("removeAction", null, null, "gtk-remove");
+		w1.Add(this.removeAction, null);
 		this.UIManager.InsertActionGroup(w1, 0);
 		this.AddAccelGroup(this.UIManager.AccelGroup);
 		this.Name = "MainWindow";
@@ -56,7 +62,8 @@ public partial class MainWindow
 		this.vbox1.Spacing = 6;
 		// Container child vbox1.Gtk.Box+BoxChild
 		this.UIManager.AddUiFromString("<ui><toolbar name=\'toolbar1\'><toolitem name=\'newAction\' action=\'newAction\'/><tool" +
-				"item name=\'editAction\' action=\'editAction\'/></toolbar></ui>");
+				"item name=\'editAction\' action=\'editAction\'/><toolitem name=\'removeAction\' action" +
+				"=\'removeAction\'/></toolbar></ui>");
 		this.toolbar1 = ((global::Gtk.Toolbar)(this.UIManager.GetWidget("/toolbar1")));
 		this.toolbar1.Name = "toolbar1";
 		this.toolbar1.ShowArrow = false;
@@ -78,15 +85,19 @@ public partial class MainWindow
 		global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.GtkScrolledWindow]));
 		w4.Position = 1;
 		// Container child vbox1.Gtk.Box+BoxChild
+		this.vbox3 = new global::Gtk.VBox();
+		this.vbox3.Name = "vbox3";
+		this.vbox3.Spacing = 6;
+		// Container child vbox3.Gtk.Box+BoxChild
 		this.labelContacto = new global::Gtk.Label();
 		this.labelContacto.Name = "labelContacto";
 		this.labelContacto.LabelProp = global::Mono.Unix.Catalog.GetString("Contacto");
-		this.vbox1.Add(this.labelContacto);
-		global::Gtk.Box.BoxChild w5 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.labelContacto]));
-		w5.Position = 2;
+		this.vbox3.Add(this.labelContacto);
+		global::Gtk.Box.BoxChild w5 = ((global::Gtk.Box.BoxChild)(this.vbox3[this.labelContacto]));
+		w5.Position = 0;
 		w5.Expand = false;
 		w5.Fill = false;
-		// Container child vbox1.Gtk.Box+BoxChild
+		// Container child vbox3.Gtk.Box+BoxChild
 		this.table2 = new global::Gtk.Table(((uint)(2)), ((uint)(2)), false);
 		this.table2.Name = "table2";
 		this.table2.RowSpacing = ((uint)(6));
@@ -133,12 +144,12 @@ public partial class MainWindow
 		w9.BottomAttach = ((uint)(2));
 		w9.XOptions = ((global::Gtk.AttachOptions)(4));
 		w9.YOptions = ((global::Gtk.AttachOptions)(4));
-		this.vbox1.Add(this.table2);
-		global::Gtk.Box.BoxChild w10 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.table2]));
-		w10.Position = 3;
+		this.vbox3.Add(this.table2);
+		global::Gtk.Box.BoxChild w10 = ((global::Gtk.Box.BoxChild)(this.vbox3[this.table2]));
+		w10.Position = 1;
 		w10.Expand = false;
 		w10.Fill = false;
-		// Container child vbox1.Gtk.Box+BoxChild
+		// Container child vbox3.Gtk.Box+BoxChild
 		this.hbox1 = new global::Gtk.HBox();
 		this.hbox1.Name = "hbox1";
 		this.hbox1.Spacing = 6;
@@ -164,10 +175,16 @@ public partial class MainWindow
 		w12.Position = 1;
 		w12.Expand = false;
 		w12.Fill = false;
-		this.vbox1.Add(this.hbox1);
-		global::Gtk.Box.BoxChild w13 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.hbox1]));
-		w13.Position = 4;
+		this.vbox3.Add(this.hbox1);
+		global::Gtk.Box.BoxChild w13 = ((global::Gtk.Box.BoxChild)(this.vbox3[this.hbox1]));
+		w13.Position = 2;
 		w13.Expand = false;
+		w13.Fill = false;
+		this.vbox1.Add(this.vbox3);
+		global::Gtk.Box.BoxChild w14 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.vbox3]));
+		w14.Position = 2;
+		w14.Expand = false;
+		w14.Fill = false;
 		this.Add(this.vbox1);
 		if ((this.Child != null))
 		{
@@ -175,7 +192,7 @@ public partial class MainWindow
 		}
 		this.DefaultWidth = 369;
 		this.DefaultHeight = 443;
-		this.hbox1.Hide();
+		this.vbox3.Hide();
 		this.Show();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler(this.OnDeleteEvent);
 	}
